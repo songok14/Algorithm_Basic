@@ -13,6 +13,7 @@ public class A04문자열수열 {
         int testCase = Integer.parseInt(br.readLine());
         String[] inputs = br.readLine().split(" ");
         int[] arr = new int[testCase];
+
         for (int i = 0; i < testCase; i++) {
             arr[i] = Integer.parseInt(inputs[i]);
         }
